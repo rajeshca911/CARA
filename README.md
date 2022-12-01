@@ -6,3 +6,8 @@ Tally Integration - Upload directly to Tally
 
 #JSON to excel convert
 #Json to tally export
+
+#CARA ITC RECO
+reconciliates input tax credit
+#CARA-GSTR2TALLY
+Converts GSTR json to excel and xml and imports to the tally
