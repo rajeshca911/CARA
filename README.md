@@ -11,3 +11,5 @@ Tally Integration - Upload directly to Tally
 reconciliates input tax credit
 #CARA-GSTR2TALLY
 Converts GSTR json to excel and xml and imports to the tally
+#CARA-BANK2TALLY
+Imports bank statements to TallY
