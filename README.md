@@ -4,8 +4,9 @@ The TallY ODBC approach makes the process easier by sending 100's or 1000's of e
 These features were only tested on Windows computers, not MACs.
 Tally Integration - Upload directly to Tally
 
-#JSON to excel convert
-#Json to tally export
+#GSTR TO TALLY
+-Excel version for excel files downloaded from gst portal
+-Json version for Json files downloaded from gst portal
 
 #CARA ITC RECO
 reconciliates input tax credit
