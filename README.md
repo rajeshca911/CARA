@@ -3,7 +3,7 @@
 
 
 ## 🚀 About Me
-Hello, I'm ***CA Rajesh Appari***, a software developer specializing in creating tools using VB.NET. Over the years, I have honed my skills in this programming language to develop efficient and user-friendly software solutions.
+Hello, I'm ***CA Rajesh Appari***, a Chartered Accountant cum Developer specializing in creating tools using VB.NET. Over the years, I have honed my skills in this programming language to develop efficient and user-friendly software solutions.
 
 I am passionate about leveraging technology to automate and simplify tasks, particularly in the realm of accounting and finance. By combining my expertise in VB.NET with my background in chartered accountancy, I have been able to create powerful tools that streamline complex accounting processes.
 
