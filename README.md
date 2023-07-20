@@ -1,5 +1,5 @@
 
-![Logo](https://imgtr.ee/images/2023/06/11/KC9KV.md.png)
+![Logo](https://files.catbox.moe/hpfww9.png)
 
 
 ## 🚀 About Me
