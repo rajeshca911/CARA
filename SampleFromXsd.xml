@@ -1,0 +1,337 @@
+<?xml version="1.0"?>
+<ENVELOPE xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <HEADER>
+    <TALLYREQUEST>Import Data</TALLYREQUEST>
+  </HEADER>
+  <BODY>
+    <IMPORTDATA>
+      <REQUESTDESC>
+        <REPORTNAME>Vouchers</REPORTNAME>
+        <STATICVARIABLES>
+          <SVCURRENTCOMPANY>Dummy Demo</SVCURRENTCOMPANY>
+        </STATICVARIABLES>
+      </REQUESTDESC>
+      <REQUESTDATA>
+        <TALLYMESSAGE>
+          <VOUCHER VCHTYPE="Sales">
+            <DATE>20230401</DATE>
+            <VOUCHERTYPENAME>Sales</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>M1</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Vendor1</PARTYLEDGERNAME>
+            <PARTYNAME>Vendor1</PARTYNAME>
+            <ISINVOICE>Yes</ISINVOICE>
+            <VCHENTRYMODE>Item Invoice</VCHENTRYMODE>
+            <PERSISTEDVIEW>Invoice Voucher View</PERSISTEDVIEW>
+            <LEDGERENTRIES.LIST>
+              <ISPARTYLEDGER>Yes</ISPARTYLEDGER>
+              <LEDGERNAME>Vendor1</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>1408.00</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <LEDGERNAME>Discount</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>10</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <LEDGERNAME>CGST 2.5%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-33.75</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <LEDGERNAME>SGST 2.5%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-33.75</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <LEDGERNAME>Round Off</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>-0.5</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Pencil</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-250</AMOUNT>
+              <ACTUALQTY>50</ACTUALQTY>
+              <BILLEDQTY>50</BILLEDQTY>
+              <RATE>5</RATE>
+              <ACCOUNTINGALLOCATIONS.LIST>
+                <LEDGERNAME>Sale of Goods @ 5%</LEDGERNAME>
+                <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+                <AMOUNT>-250</AMOUNT>
+              </ACCOUNTINGALLOCATIONS.LIST>
+            </ALLINVENTORYENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Eraser</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-100</AMOUNT>
+              <ACTUALQTY>25</ACTUALQTY>
+              <BILLEDQTY>25</BILLEDQTY>
+              <RATE>4</RATE>
+              <ACCOUNTINGALLOCATIONS.LIST>
+                <LEDGERNAME>Sale of Goods @ 5%</LEDGERNAME>
+                <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+                <AMOUNT>-100</AMOUNT>
+              </ACCOUNTINGALLOCATIONS.LIST>
+            </ALLINVENTORYENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Pens</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-1000</AMOUNT>
+              <ACTUALQTY>100</ACTUALQTY>
+              <BILLEDQTY>100</BILLEDQTY>
+              <RATE>10</RATE>
+              <ACCOUNTINGALLOCATIONS.LIST>
+                <LEDGERNAME>Sale of Goods @ 5%</LEDGERNAME>
+                <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+                <AMOUNT>-1000</AMOUNT>
+              </ACCOUNTINGALLOCATIONS.LIST>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE>
+          <VOUCHER VCHTYPE="Sales">
+            <DATE>20230403</DATE>
+            <VOUCHERTYPENAME>Sales</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>M2</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Vendor2</PARTYLEDGERNAME>
+            <PARTYNAME>Vendor2</PARTYNAME>
+            <ISINVOICE>Yes</ISINVOICE>
+            <VCHENTRYMODE>Item Invoice</VCHENTRYMODE>
+            <PERSISTEDVIEW>Invoice Voucher View</PERSISTEDVIEW>
+            <LEDGERENTRIES.LIST>
+              <ISPARTYLEDGER>Yes</ISPARTYLEDGER>
+              <LEDGERNAME>Vendor2</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>2756.00</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <LEDGERNAME>CGST 2.5%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-65.62</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <LEDGERNAME>SGST 2.5%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-65.62</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <LEDGERNAME>Round Off</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>0.24</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Sharpener </STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-750</AMOUNT>
+              <ACTUALQTY>150</ACTUALQTY>
+              <BILLEDQTY>150</BILLEDQTY>
+              <RATE>5</RATE>
+              <ACCOUNTINGALLOCATIONS.LIST>
+                <LEDGERNAME>Sale of Goods @ 5%</LEDGERNAME>
+                <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+                <AMOUNT>-750</AMOUNT>
+              </ACCOUNTINGALLOCATIONS.LIST>
+            </ALLINVENTORYENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Color Pencils</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-450</AMOUNT>
+              <ACTUALQTY>30</ACTUALQTY>
+              <BILLEDQTY>30</BILLEDQTY>
+              <RATE>15</RATE>
+              <ACCOUNTINGALLOCATIONS.LIST>
+                <LEDGERNAME>Sale of Goods @ 5%</LEDGERNAME>
+                <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+                <AMOUNT>-450</AMOUNT>
+              </ACCOUNTINGALLOCATIONS.LIST>
+            </ALLINVENTORYENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Sketch pens  </STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-800</AMOUNT>
+              <ACTUALQTY>40</ACTUALQTY>
+              <BILLEDQTY>40</BILLEDQTY>
+              <RATE>20</RATE>
+              <ACCOUNTINGALLOCATIONS.LIST>
+                <LEDGERNAME>Sale of Goods @ 5%</LEDGERNAME>
+                <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+                <AMOUNT>-800</AMOUNT>
+              </ACCOUNTINGALLOCATIONS.LIST>
+            </ALLINVENTORYENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Stapler </STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-625</AMOUNT>
+              <ACTUALQTY>25</ACTUALQTY>
+              <BILLEDQTY>25</BILLEDQTY>
+              <RATE>25</RATE>
+              <ACCOUNTINGALLOCATIONS.LIST>
+                <LEDGERNAME>Sale of Goods @ 5%</LEDGERNAME>
+                <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+                <AMOUNT>-625</AMOUNT>
+              </ACCOUNTINGALLOCATIONS.LIST>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE>
+          <VOUCHER VCHTYPE="Sales">
+            <DATE>20230410</DATE>
+            <VOUCHERTYPENAME>Sales</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>B1</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Vendor1</PARTYLEDGERNAME>
+            <PARTYNAME>Vendor1</PARTYNAME>
+            <ISINVOICE>Yes</ISINVOICE>
+            <VCHENTRYMODE>Item Invoice</VCHENTRYMODE>
+            <PERSISTEDVIEW>Invoice Voucher View</PERSISTEDVIEW>
+            <LEDGERENTRIES.LIST>
+              <ISPARTYLEDGER>Yes</ISPARTYLEDGER>
+              <LEDGERNAME>Vendor1</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>13970</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <LEDGERNAME>Discount</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>254</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <LEDGERNAME>CGST 6%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-762</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <LEDGERNAME>SGST 6%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-762</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>4 Ruled Book</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-2000</AMOUNT>
+              <ACTUALQTY>100</ACTUALQTY>
+              <BILLEDQTY>100</BILLEDQTY>
+              <RATE>20</RATE>
+              <ACCOUNTINGALLOCATIONS.LIST>
+                <LEDGERNAME>Sale of Goods @ 12%</LEDGERNAME>
+                <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+                <AMOUNT>-2000</AMOUNT>
+              </ACCOUNTINGALLOCATIONS.LIST>
+            </ALLINVENTORYENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Broad Ruled Book</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-5000</AMOUNT>
+              <ACTUALQTY>200</ACTUALQTY>
+              <BILLEDQTY>200</BILLEDQTY>
+              <RATE>25</RATE>
+              <ACCOUNTINGALLOCATIONS.LIST>
+                <LEDGERNAME>Sale of Goods @ 12%</LEDGERNAME>
+                <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+                <AMOUNT>-5000</AMOUNT>
+              </ACCOUNTINGALLOCATIONS.LIST>
+            </ALLINVENTORYENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Single Ruled Book</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-3000</AMOUNT>
+              <ACTUALQTY>100</ACTUALQTY>
+              <BILLEDQTY>100</BILLEDQTY>
+              <RATE>30</RATE>
+              <ACCOUNTINGALLOCATIONS.LIST>
+                <LEDGERNAME>Sale of Goods @ 12%</LEDGERNAME>
+                <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+                <AMOUNT>-3000</AMOUNT>
+              </ACCOUNTINGALLOCATIONS.LIST>
+            </ALLINVENTORYENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>White Book</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-2700</AMOUNT>
+              <ACTUALQTY>100</ACTUALQTY>
+              <BILLEDQTY>100</BILLEDQTY>
+              <RATE>27</RATE>
+              <ACCOUNTINGALLOCATIONS.LIST>
+                <LEDGERNAME>Sale of Goods @ 12%</LEDGERNAME>
+                <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+                <AMOUNT>-2700</AMOUNT>
+              </ACCOUNTINGALLOCATIONS.LIST>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE>
+          <VOUCHER VCHTYPE="Sales">
+            <DATE>20230411</DATE>
+            <VOUCHERTYPENAME>Sales</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>B2</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Vendor3</PARTYLEDGERNAME>
+            <PARTYNAME>Vendor3</PARTYNAME>
+            <ISINVOICE>Yes</ISINVOICE>
+            <VCHENTRYMODE>Item Invoice</VCHENTRYMODE>
+            <PERSISTEDVIEW>Invoice Voucher View</PERSISTEDVIEW>
+            <LEDGERENTRIES.LIST>
+              <ISPARTYLEDGER>Yes</ISPARTYLEDGER>
+              <LEDGERNAME>Vendor3</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>6122</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <LEDGERNAME>Discount</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>250</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <LEDGERNAME>CGST 9%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-486</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <LEDGERNAME>SGST 9%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-486</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>LasterLight</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-2700</AMOUNT>
+              <ACTUALQTY>100</ACTUALQTY>
+              <BILLEDQTY>100</BILLEDQTY>
+              <RATE>27</RATE>
+              <ACCOUNTINGALLOCATIONS.LIST>
+                <LEDGERNAME>Sale of Goods @ 18%</LEDGERNAME>
+                <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+                <AMOUNT>-2700</AMOUNT>
+              </ACCOUNTINGALLOCATIONS.LIST>
+            </ALLINVENTORYENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>KeyChains</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-2700</AMOUNT>
+              <ACTUALQTY>100</ACTUALQTY>
+              <BILLEDQTY>100</BILLEDQTY>
+              <RATE>27</RATE>
+              <ACCOUNTINGALLOCATIONS.LIST>
+                <LEDGERNAME>Sale of Goods @ 18%</LEDGERNAME>
+                <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+                <AMOUNT>-2700</AMOUNT>
+              </ACCOUNTINGALLOCATIONS.LIST>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+      </REQUESTDATA>
+    </IMPORTDATA>
+  </BODY>
+</ENVELOPE>
